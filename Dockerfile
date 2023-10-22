@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:16
+FROM node:18-alpine
 RUN npm install -g typescript ts-node mocha
 RUN apk add --update git openssh
 
